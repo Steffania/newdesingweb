@@ -503,12 +503,12 @@
 		-o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: none;
+		background:  rgba(23, 168, 122, 0.5);
 		border: solid 1px;
 		color: inherit;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 1.1em;
 		font-weight: 900;
 		letter-spacing: 2px;
 		min-width: 18em;
@@ -523,7 +523,8 @@
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		.button:hover {
-			background: rgba(188, 202, 206, 0.15);
+			/*background: rgba(188, 202, 206, 0.15);*/
+			background: #17A679;
 			border-color: inherit;
 		}
 
@@ -531,8 +532,9 @@
 		input[type="submit"].special,
 		input[type="reset"].special,
 		.button.special {
-			background: #17A87A;
-			border-color: #17A87A;
+			/*background: #17A87A;*/
+			background: rgba(23, 168, 122, 0.5);
+			border-color: rgba(23, 168, 122, 0.5);
 			color: white !important;
 		}
 
@@ -843,10 +845,11 @@
 					position: relative;
 					text-transform: uppercase;
 				}
-			#banner .inner header p {					
-					letter-spacing: 0.35em;		
+				#banner .inner header p {					
+					letter-spacing: 0.45em;		
 					font-weight: 900;			
-				}	
+				}
+		
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
@@ -855,10 +858,11 @@
 
 				#banner .inner p a {
 					color: inherit;
-					font-weight: 400;
+					font-size: 0.9em; 
+					font-weight: 500;
 					text-decoration: none;
 				}
-
+				
 			#banner .inner footer {
 				margin: 2em 0 0 0;
 			}

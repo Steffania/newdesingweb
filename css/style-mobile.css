@@ -148,6 +148,10 @@
 			#banner .inner header h2 {
 				font-size: 1.5em;
 			}
+			#banner .inner header p {					
+				letter-spacing: 0.25em;		
+				font-weight: 900;			
+			}
 
 			#banner .inner p {
 				text-align: center;
