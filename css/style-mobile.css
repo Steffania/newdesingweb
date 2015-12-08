@@ -41,16 +41,22 @@
 		}
 
 			header.special:before, header.special:after {
-				width: 38%;
+				width: 10%;
 			}
 
 			header.special .icon {
 				font-size: 0.75em;
-				top: 1.5em;
+				top: -2em;
+				padding-top: 1em;
+				padding-bottom: 5em;
 			}
 
 		header p {
 			text-align: center;
+
+		}
+		header.special h2 {
+			padding-top: 3em;
 		}
 
 	footer.major {

@@ -131,7 +131,7 @@
 			opacity: 0.1;
 			position: absolute;
 			top: 1.75em;
-			width: 43%;
+			width: 35%;
 		}
 
 		header.special:before {
@@ -151,13 +151,13 @@
 			padding-top: 1.5em;
 		}
 
-		header.special .icon {
+		header.special .icon {			
 			cursor: default;
 			height: 7em;
 			left: 0;
 			position: absolute;
 			text-align: center;
-			top: 1em;
+			top: -2.8em;
 			width: 100%;
 		}
 
@@ -542,8 +542,8 @@
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
 			.button.special:hover {
-				background: #1DD399  !important;
-				border-color: #1DD399  !important;
+				background: #149068  !important;
+				border-color: #149068  !important;
 			}
 
 		input[type="button"].fit,
