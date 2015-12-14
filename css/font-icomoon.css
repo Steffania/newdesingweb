@@ -12,145 +12,110 @@
     font-weight: normal;
     font-style: normal;
 }
-   .icon-pino:before {
+ .icon-pino:before {
     content: "\f1bb";
 }
-
+.icon-aire:before {
+    content: "\e900";
+}
+.icon-cocina:before {
+    content: "\e901";
+}
+.icon-directv:before {
+    content: "\e902";
+}
+.icon-estacionamiento:before {
+    content: "\e903";
+}
+.icon-parrilla:before {
+    content: "\e904";
+}
+.icon-piscina:before {
+    content: "\e905";
+}
+.icon-rampa:before {
+    content: "\e906";
+}
+.icon-wifi:before {
+    content: "\e907";
+}
 .icon-youtube:before {
     content: "\f167";
 }
-
 .icon-bad:before {
     content: "\f165";
 }
-
 .icon-ok:before {
     content: "\f164";
 }
-
 .icon-calendario:before {
     content: "\f133";
 }
-
 .icon-comentar:before {
     content: "\f10e";
 }
-
 .icon-lunch:before {
     content: "\f0f5";
 }
-
 .icon-desayuno:before {
     content: "\f0f4";
 }
-
 .icon-facebook:before {
     content: "\f09a";
 }
-
 .icon-twitter:before {
     content: "\f099";
 }
-
 .icon-telefono:before {
     content: "\f098";
 }
-
 .icon-camara:before {
     content: "\f083";
 }
-
 .icon-agenda:before {
     content: "\f073";
 }
-
 .icon-right:before {
     content: "\f054";
 }
-
 .icon-left:before {
     content: "\f053";
 }
-
 .icon-reservar:before {
     content: "\f044";
 }
-
 .icon-galeria:before {
     content: "\f03e";
 }
-
 .icon-video:before {
     content: "\f03d";
 }
-
 .icon-photo:before {
     content: "\f030";
 }
-
 .icon-reserva:before {
     content: "\f02c";
 }
-
 .icon-rutas:before {
     content: "\f018";
 }
-
 .icon-casa:before {
     content: "\f015";
 }
-
 .icon-usuario:before {
     content: "\f007";
 }
-
 .icon-corazon:before {
     content: "\f004";
 }
-
 .icon-carta:before {
     content: "\f003";
 }
-
-.icon-sillas:before {
-    content: "\e600";
-}
-
-.icon-aire:before {
-    content: "\e601";
-}
-
-.icon-botiquin:before {
-    content: "\e602";
-}
-
-.icon-cocina:before {
-    content: "\e603";
-}
-
-.icon-direcTV:before {
-    content: "\e604";
-}
-
-.icon-estacionamiento:before {
-    content: "\e605";
-}
-
-.icon-matafuego:before {
-    content: "\e606";
-}
-
-.icon-parrilla:before {
-    content: "\e607";
-}
-
-.icon-wifi:before {
-    content: "\e608";
-}
-
 .icon-naturaleza:before {
     content: "\e9a4";
 }
+
+
 
 
 /*.fa {
