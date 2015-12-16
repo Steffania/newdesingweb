@@ -12,8 +12,14 @@
     font-weight: normal;
     font-style: normal;
 }
- .icon-pino:before {
+.icon-pino:before {
     content: "\f1bb";
+}
+.icon-desayuno2:before {
+    content: "\e908";
+}
+.icon-ropablanca:before {
+    content: "\e909";
 }
 .icon-aire:before {
     content: "\e900";
@@ -114,6 +120,7 @@
 .icon-naturaleza:before {
     content: "\e9a4";
 }
+
 
 
 
