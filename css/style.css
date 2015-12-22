@@ -240,6 +240,13 @@
 		color: #000;
 		text-align: left;
 	}
+	#info h3{
+		color: #FFF;
+	}
+
+	#info a {
+		color: #FFF;
+	}
 
 	.info h3 {
 		color: #333;
