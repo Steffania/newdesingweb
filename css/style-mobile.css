@@ -136,7 +136,7 @@
 
 	#banner {
 		background-size: 10em, 10em, auto, cover;
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 		#banner .inner {
@@ -150,7 +150,7 @@
 		}
 
 			#banner .inner header h2 {
-				font-size: 1.3em;
+				font-size: 1.2em;
 			}
 			#banner .inner header p {					
 				font-weight: 200;	
