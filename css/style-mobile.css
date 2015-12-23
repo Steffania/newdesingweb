@@ -11,7 +11,7 @@
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.1em;
 		letter-spacing: 0.1em;
 	}
 
@@ -39,7 +39,10 @@
 			padding-left: 1.5em;
 			padding-right: 1.5em;
 		}
-
+		.icon img
+		{
+			width: 75%;
+		}
 			header.special:before, header.special:after {
 				width: 10%;
 			}
@@ -48,15 +51,19 @@
 				font-size: 0.75em;
 				top: -2em;
 				padding-top: 1em;
-				padding-bottom: 5em;
-			}
+				padding-bottom: 6em;
+				width: 70%;
 
+			}
+		
 		header p {
 			text-align: center;
 
 		}
 		header.special h2 {
-			padding-top: 3em;
+			font-size: 0.9em;
+			padding-top: 2em;
+
 		}
 
 		#banner .inner footer {
@@ -68,6 +75,11 @@
 		}
 	footer.major {
 		padding-top: 0;
+	}
+	.button 
+	{
+		width: 70%;
+		font-size: 1em;
 	}
 
 /* Icon */
@@ -100,7 +112,8 @@
 	}
 
 	ul.featured-icons li .icon {
-		width: 1.1em;
+		font-size: 3.2em;		
+		width: 1em;
 	}
 
 	ul.buttons {
