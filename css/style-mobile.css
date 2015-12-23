@@ -133,21 +133,12 @@
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-o-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
-			-moz-animation-fill-mode: forwards;
-			-webkit-animation-fill-mode: forwards;
-			-o-animation-fill-mode: forwards;
-			-ms-animation-fill-mode: forwards;
-			animation-fill-mode: forwards;
+			
 			background: rgba(52, 27, 43, 0.8);
 			color: white;
-			display: inline-block;
+			display: block;
 			opacity: 0;
-			padding: 3em;
+			padding: 1 1em;
 			text-align: center;
 		}
 
@@ -155,8 +146,8 @@
 				font-size: 1.5em;
 			}
 			#banner .inner header p {					
-				letter-spacing: 0.25em;		
-				font-weight: 900;			
+				letter-spacing: 0.15em;		
+				font-weight: 400;			
 			}
 
 			#banner .inner p {
