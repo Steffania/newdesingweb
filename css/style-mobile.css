@@ -59,6 +59,13 @@
 			padding-top: 3em;
 		}
 
+		#banner .inner footer {
+				margin: 1em 0 0 0;
+		}
+		#banner .inner footer ul li a 
+		{
+			font-size: 0.8em;
+		}
 	footer.major {
 		padding-top: 0;
 	}
@@ -138,20 +145,26 @@
 			color: white;
 			display: block;
 			opacity: 0;
-			padding: 1 1em;
+			padding: 1.4em;
 			text-align: center;
 		}
 
 			#banner .inner header h2 {
-				font-size: 1.5em;
+				font-size: 1.3em;
 			}
 			#banner .inner header p {					
-				letter-spacing: 0.15em;		
-				font-weight: 400;			
+				font-weight: 200;	
+				font-size: 1em;
+				letter-spacing: 0.05em;		
+				
+
 			}
 
 			#banner .inner p {
+				font-size: 0.8em;
 				text-align: center;
+				padding: 0.1em;
+
 			}
 
 			#banner .inner br {
