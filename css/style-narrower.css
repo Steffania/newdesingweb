@@ -12,7 +12,7 @@
 
 	header.special {
 		margin-bottom: 4em;
-		padding-top: 5em;
+		padding-top: 0em;
 	}
 
 		header.special:before, header.special:after {
