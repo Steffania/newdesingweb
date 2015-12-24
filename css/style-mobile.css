@@ -41,7 +41,7 @@
 		}
 		header img
 		{
-			width: 60%;
+			width: 70%;
 		}
 			header.special:before, header.special:after {
 				width: 10%;
@@ -220,6 +220,17 @@
 	}
 
 /* Slider */
+	#slider {
+		max-width: 100%;	
+		max-height: auto;
+	}	
+	#overflow {
+		width: 100%;
+		overflow: hidden;
+	}
+	.info article img {
+		width: 100%;
+	}
 	#slider #controls {
 		margin: -28% 0 0 24%;
 		width: 50%;
@@ -236,6 +247,10 @@
 	#slider #slides .info {
 		opacity: 0 !important;
 	}
+	/*.inner article img{
+		max-width: 400px;
+	}*/
+	
 	#slider #slides {
 		padding: 1% 0;
 		-webkit-border-radius: 0px;
