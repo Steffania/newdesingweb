@@ -39,9 +39,9 @@
 			padding-left: 1.5em;
 			padding-right: 1.5em;
 		}
-		.icon img
+		header img
 		{
-			width: 75%;
+			width: 60%;
 		}
 			header.special:before, header.special:after {
 				width: 10%;
