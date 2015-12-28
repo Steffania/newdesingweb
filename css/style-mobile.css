@@ -76,10 +76,11 @@
 	footer.major {
 		padding-top: 0;
 	}
-	.button 
+	
+	.button
 	{
 		width: 70%;
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 
 /* Icon */
