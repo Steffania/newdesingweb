@@ -262,3 +262,27 @@
 	#slider #active {
 		margin: 23% 0 0;
 	}
+
+
+
+	/*Tarifas*/
+	.pricing-table-signup-tiny p
+	{
+		margin: 0px 0px 10px;
+		text-align: center;
+	}
+	.pricing-table-signup-small p
+	{
+		margin: 0px 0px 10px;
+		text-align: center;
+	}
+	.pricing-table-signup-medium p
+	{
+		margin: 0px 0px 10px;
+		text-align: center;
+	}
+	.pricing-table-signup-pro p
+	{
+		margin: 0px 0px 10px;
+		text-align: center;
+	}
