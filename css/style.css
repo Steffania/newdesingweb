@@ -2421,9 +2421,9 @@
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {
     display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
+    float: center;
+    width: 70%;
+    margin-left: 15%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
