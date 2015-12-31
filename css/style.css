@@ -2413,7 +2413,8 @@
     width: auto;
   }
   .row-fluid {
-    width: 100%;
+    width: 75%;
+	margin: 0px auto;
   }
   .row,
   .thumbnails {
