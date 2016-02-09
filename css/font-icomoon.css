@@ -12,6 +12,12 @@
     font-weight: normal;
     font-style: normal;
 }
+.icon-reloj:before {
+    content: "\f017";
+}
+.icon-ruta:before {
+    content: "\f019";
+}
 .icon-pino:before {
     content: "\f1bb";
 }
@@ -53,6 +59,9 @@
 }
 .icon-ok:before {
     content: "\f164";
+}
+.icon-uniF134:before {
+    content: "\f134";
 }
 .icon-calendario:before {
     content: "\f133";
@@ -107,6 +116,9 @@
 }
 .icon-casa:before {
     content: "\f015";
+}
+.icon-tilde:before {
+    content: "\f00c";
 }
 .icon-usuario:before {
     content: "\f007";
