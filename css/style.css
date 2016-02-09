@@ -156,6 +156,10 @@
 		float: left;
 	}
 
+	#slides article img{
+		width: 100%;
+	}
+
 /* Slider Styling */
 
 /* Control Setup */
