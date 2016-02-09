@@ -125,6 +125,14 @@
 		margin: 0 auto;
 		max-width: 370px;
 	}
+	#servicios li{
+		list-style: none;
+		text-align: left;
+		/*display: inline; */
+		margin: 0 40px 0 40px;
+}
+	}
+
 /* Slider Setup */
 
 	input {
