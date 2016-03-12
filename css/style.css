@@ -39,6 +39,9 @@
 		 overflow-x: hidden;
 		 /**/
 	}
+	body.index #main #tarifas{
+    	padding-top: 5em;
+	}	
 
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -128,7 +131,6 @@
 	#servicios li{
 		list-style: none;
 		text-align: left;
-		/*display: inline; */
 		margin: 0 40px 0 40px;
 }
 	}
@@ -400,7 +402,7 @@
 			left: 0;
 			position: absolute;
 			text-align: center;
-			top: -2.8em;
+			top: -0.3em;
 			width: 100%;
 		}	
 		header.special .icon:before {
@@ -1294,8 +1296,9 @@
 	    
 	}
 
-		 .pricing-table strong { font-weight: 700; color: #3d3d3d; }
+		.pricing-table strong { font-weight: 700; color: #3d3d3d; }
 
+	
 		.pricing-table-header-tiny {
 		    padding: 5px 0 5px 0;
 		    background: #16a085;
@@ -1306,7 +1309,7 @@
 		    padding: 5px 0 5px 0;
 		    background: #f39c12;
 			border-bottom:10px solid #cd8109;
-
+			
 		}
 
 		.pricing-table-header-medium {
@@ -1322,8 +1325,8 @@
 			border-bottom:10px solid #1d6391;
 		}
 
-		.pricing-table-header-tiny h2, .pricing-table-header-small h2, .pricing-table-header-medium h2, .pricing-table-header-pro h2 {  font-weight: 700; color:#FFF; }
-		.pricing-table-header-tiny h3, .pricing-table-header-small h3, .pricing-table-header-medium h3, .pricing-table-header-pro h3 { font-weight: 500; color:#FFF;  }
+		.pricing-table-header-tiny h2, .pricing-table-header-small h2, .pricing-table-header-medium h2, .pricing-table-header-pro h2 {  font-weight: 700; color:#FFF; margin-bottom: 0;}
+		.pricing-table-header-tiny h3, .pricing-table-header-small h3, .pricing-table-header-medium h3, .pricing-table-header-pro h3 { font-weight: 500; color:#FFF; margin-bottom: 0;}
 
 
 		.pricing-table-text {
@@ -1802,7 +1805,7 @@
     margin-left: 130px;
   }
   .row-fluid {
-   	width: 75%;
+   	width: 100%;
 	margin: 0px auto;
   }
   .row-fluid:before,
@@ -1869,8 +1872,8 @@
     *width: 31.570740134569924%;*/
   }
   .row-fluid .span3 {
-  	width: 30%;
-  	height: 400px;
+  	width: 22%;
+  	height: 300px;
    /* width: 23.076923076923077%;
     *width: 23.023731587561375%;*/
   }
