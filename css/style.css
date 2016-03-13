@@ -39,7 +39,7 @@
 		 overflow-x: hidden;
 		 /**/
 	}
-	body.index #main #tarifas{
+	body.index #main #caracteristicas #tarifas { 
     	padding-top: 5em;
 	}	
 
@@ -128,10 +128,10 @@
 		margin: 0 auto;
 		max-width: 370px;
 	}
-	#servicios li{
+	#lista li{
 		list-style: none;
 		text-align: left;
-		margin: 0 40px 0 40px;
+		/*margin: 0 40px 0 40px;*/
 }
 	}
 
@@ -2225,7 +2225,7 @@
   }*/
   .row-fluid .span3 {
     width: 45%;
-    height: 380px;
+    height: 300px;
     /**width: 22.87498530621841%;*/
   }
   /*.row-fluid .span2 {
