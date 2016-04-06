@@ -44,7 +44,7 @@
 			width: 70%;
 		}
 			header.special:before, header.special:after {
-				width: 10%;
+				width: 35%;
 			}
 
 			header.special .icon {
@@ -52,7 +52,9 @@
 				top: -2em;
 				padding-top: 0.5em;
 				padding-bottom: 6em;
-				width: 70%;
+
+
+
 
 			}
 		
@@ -232,22 +234,35 @@
 	.info article img {
 		width: 100%;
 	}
-	#slider #controls {
+	#sslider #controls {
 		margin: -28% 0 0 24%;
 		width: 50%;
 		height: 50px;
 	}
 
-	#slider #controls label {
+	#sslider #controls label {
 		-moz-transform: scale(0.6);
 		-webkit-transform: scale(0.6);
 		-o-transform: scale(0.6);
 		-ms-transform: scale(0.6);
 		transform: scale(0.6);
 	}
-	#slider #slides .info {
+	#sslider #slides .info {
 		opacity: 0 !important;
 	}
+	#slider {
+		max-width: 78%; 
+		height: auto;
+	}
+
+	#slider ul li img {
+		width: 30%;
+		height: auto;
+	}
+	#mask{
+		max-height: 100%;
+	}
+
 	/*.inner article img{
 		max-width: 400px;
 	}*/
