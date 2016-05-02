@@ -64,7 +64,7 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -148,6 +148,22 @@
 		height:540px;
 		margin:10px auto 0;
 	}*/
+
+	/* MAPA */
+	/*.google-maps {
+		position: relative;
+		padding-bottom: 5%; 
+		height: 0;
+		overflow: hidden;
+	}
+	.google-maps iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		/*height: 60% !important;*/
+	/*}*/
+
 	/* SLIDER */
 	#slider {
 		background:#000;
@@ -262,14 +278,7 @@
 	/*fin slider automatico*/
 
 	
-#lista {
-		margin: 0 auto;
-	}
-	#lista li{
-		list-style: none;
-		text-align: left;
-		/*margin: 0 40px 0 40px;*/
-	}
+	
 	
 
 
@@ -382,7 +391,7 @@
 	}
 
 /* Info Box */
-#item article .tooltip {
+	#item article .tooltip {
 		background:rgba(0,0,0,0.7);
 		width:100%;
 		height:80px;
@@ -411,17 +420,18 @@
 
 	.info {
 		background:rgba(0,0,0,0.6);
-		width:100%;
-		height:100px;
+		width:20%;
+		height:120px;
 		line-height: 20px;
 		margin: 0 0 -150%;
 		position: absolute;
 		font-style: italic;
-		padding: 20px 20px;
+		padding: 20px 40px;
 		opacity: 0;
+		position:absolute
 		color: #000;
 		text-align: left;
-		top: 400px;
+		top: 380px;
 	}
 	#info h3{
 		color: #FFF;
@@ -564,6 +574,7 @@
 
 		header.special h2 {
 			margin-bottom: 0;
+			margin-top: 2em;
 		}
 
 		header.special h2 + p {
@@ -742,49 +753,49 @@
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
+			.icon.circle.icon-twitter {
 				background: #70aecd;
 				color: white;
 			}
 
-				.icon.circle.fa-twitter:hover {
+				.icon.circle.icon-twitter:hover {
 					background: #7fb7d2;
 				}
 
-			.icon.circle.fa-facebook {
+			.icon.circle.icon-facebook {
 				background: #7490c3;
 				color: white;
 			}
 
-				.icon.circle.fa-facebook:hover {
+				.icon.circle.icon-facebook:hover {
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus {
+			.icon.circle.icon-google-plus {
 				background: #db6b67;
 				color: white;
 			}
 
-				.icon.circle.fa-google-plus:hover {
+				.icon.circle.icon-google-plus:hover {
 					background: #df7b77;
 				}
 
-			.icon.circle.fa-github {
+			.icon.circle.icon-instagram {
 				background: #dcad8b;
 				color: white;
 			}
 
-				.icon.circle.fa-github:hover {
+				.icon.circle.icon-instagram:hover {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
+			.icon.circle.icon-youtube {
+				background: #E55452;
 				color: white;
 			}
 
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
+				.icon.circle.icon-youtube:hover {
+					background: #E86A68;
 				}
 
 		.icon.featured {
@@ -855,7 +866,7 @@
 
 			ul.featured-icons li .icon {
 				display: inline-block;
-				font-size: 5em;
+				font-size: 4em;
 				height: 1.25em;
 				line-height: 1.25em;
 				width: 1em;
@@ -1380,6 +1391,8 @@
 					padding: 0;
 					border: 0;
 				}
+
+
 /* Tarifas */
 	.container-fluid {
 		padding: 0;
@@ -1848,6 +1861,8 @@
 		margin: 22% 0 0;
 	}
 
+
+	
 	
 }
 @media only screen and (max-width: 450px) {
@@ -1901,6 +1916,35 @@
 		width: 100%;
 		height: auto;
 	}*/
+
+	/* MAPA */
+	#mapa iframe{
+		width: 100%;
+		height: 450px;
+	}
+	#lista{
+		float: left;
+	}
+	#lista ol {
+	
+		 width:560px;
+		  margin-bottom:20px;
+		  overflow:hidden;
+	}
+
+	#lista li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+	.dos_columnas li { width:50%;}
+	
+	}
 }
 
 @media print {
@@ -1913,10 +1957,26 @@
 }
 
 @media (min-width: 1200px) {
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 400px !important;
+		
+	}
   .row {
     margin-left: -30px;
     *zoom: 1;
   }
+
   .row:before,
   .row:after {
     display: table;
@@ -2266,6 +2326,21 @@
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 80% !important;
+		height: 350px !important;
+		
+	}
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -2707,6 +2782,22 @@
 }
 
 @media (max-width: 480px) {
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 60% !important;
+		height: 250px !important;
+		
+	}
+
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
