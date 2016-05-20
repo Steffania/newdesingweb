@@ -1832,6 +1832,48 @@
 		width: 100%; 
 		height: auto;
 	}
+	#lista
+	{
+		margin: 0 auto;
+	}
+
+#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+
+
+	#lista ol {
+	
+		 width:560px;
+		  margin-bottom:20px;
+		  overflow:hidden;
+	}
+
+	#lista li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+	.dos_columnas li { width:50%;}
+	
+	}
 
 
 	#mask{
@@ -1860,7 +1902,22 @@
 	#sslider #active {
 		margin: 22% 0 0;
 	}
-
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 400px !important;
+		 
+		
+	}
 
 	
 	
@@ -1872,7 +1929,42 @@
 		width: 50%;
 		height: 50px;
 	}
+	#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
 
+	/*#lista ol {
+	
+		 width:560px;
+		  margin-bottom:20px;
+		  overflow:hidden;
+	}
+
+	#lista li{
+		list-style: none;
+		text-align: left;
+		margin: 0 40px 0 40px;
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+	.dos_columnas li { width:50%;}
+	
+	}*/
 	#sslider #active {
 		margin: 23% 0 0;
 	}
@@ -1901,38 +1993,20 @@
 	}
 
 }
-@media only screen and (min-width: 850px) {
 
-	body {
-		padding: 0 80px;
-	}
-	#sslider {
-    	max-width: 960px;
-	}
-	/*#slider {
-		max-width: 940px;
-	}*/
-	/*#slider img {
-		width: 100%;
-		height: auto;
-	}*/
-
-	/* MAPA */
-	#mapa iframe{
-		width: 100%;
-		height: 450px;
-	}
+/*@media all and (max-width : 1370px) {
+ 
+}*/
+@media (min-width: 1200px) {
 	#lista{
 		float: left;
 	}
-	#lista ol {
-	
-		 width:560px;
-		  margin-bottom:20px;
-		  overflow:hidden;
+	#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
 	}
-
-	#lista li{
+	#temporada li{
 		list-style: none;
 		text-align: left;
 		/*margin: 0 40px 0 40px;*/
@@ -1942,21 +2016,7 @@
   		float:left;
   		display:inline;
 	}
-	.dos_columnas li { width:50%;}
-	
-	}
-}
 
-@media print {
-  .visible-print {
-    display: inherit !important;
-  }
-  .hidden-print {
-    display: none !important;
-  }
-}
-
-@media (min-width: 1200px) {
 	.google-maps {
 		position: relative;
 		/*padding-bottom: 75%; 
@@ -1970,6 +2030,7 @@
 		left: 0;
 		width: 100% !important;
 		height: 400px !important;
+
 		
 	}
   .row {
@@ -2324,8 +2385,23 @@
     margin-left: 0;
   }
 }
+@media only screen and (min-width: 850px) {
 
-@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		padding: 0 80px;
+	}
+	#sslider {
+    	max-width: 960px;
+	}
+	/*#slider {
+		max-width: 940px;
+	}*/
+	/*#slider img {
+		width: 100%;
+		height: auto;
+	}*/
+
+	/* MAPA */
 	.google-maps {
 		position: relative;
 		/*padding-bottom: 75%; 
@@ -2337,10 +2413,90 @@
 		position: relative;
 		top: 0;
 		left: 0;
-		width: 80% !important;
+		width: 100% !important;
 		height: 350px !important;
 		
 	}
+	#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+	#lista ol {
+	
+		 width:560px;
+		  margin-bottom:20px;
+		  overflow:hidden;
+	}
+
+	#lista li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+	.dos_columnas li { width:50%;}
+	
+	}
+}
+
+@media print {
+  .visible-print {
+    display: inherit !important;
+  }
+  .hidden-print {
+    display: none !important;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 350px !important;
+		
+	}
+	#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -2682,107 +2838,14 @@
   }
 }
 
-@media (max-width: 767px) {
+/*@media all and (min-width : 600px) and (max-width : 800px) {
+ 
+}*/
+@media (max-width: 750px) {
   body {
-    /*padding-right: 20px;
-    padding-left: 20px;*/
+    padding-top: 0;
   }
-  .navbar-fixed-top,
-  .navbar-fixed-bottom,
-  .navbar-static-top {
-    margin-right: -20px;
-    margin-left: -20px;
-  }
-  .container-fluid {
-    padding: 0;
-  }
-  .dl-horizontal dt {
-    float: none;
-    width: auto;
-    clear: none;
-    text-align: left;
-  }
-  .dl-horizontal dd {
-    margin-left: 0;
-  }
-  .container {
-    width: auto;
-  }
-  .row-fluid {
-    width: 75%;
-	margin: 0px auto;
-  }
-  .row,
-  .thumbnails {
-    margin-left: 0;
-  }
-  .thumbnails > li {
-    float: none;
-    margin-left: 0;
-  }
-  [class*="span"],
-  .uneditable-input[class*="span"],
-  .row-fluid [class*="span"] {
-    display: block;
-    float: none;
-    width: 100%;
-    margin-left: 0;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .span12,
-  .row-fluid .span12 {
-    width: 100%;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .row-fluid [class*="offset"]:first-child {
-    margin-left: 0;
-  }
-  .input-large,
-  .input-xlarge,
-  .input-xxlarge,
-  input[class*="span"],
-  select[class*="span"],
-  textarea[class*="span"],
-  .uneditable-input {
-    display: block;
-    width: 100%;
-    min-height: 30px;
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  .input-prepend input,
-  .input-append input,
-  .input-prepend input[class*="span"],
-  .input-append input[class*="span"] {
-    display: inline-block;
-    width: auto;
-  }
-  .controls-row [class*="span"] + [class*="span"] {
-    margin-left: 0;
-  }
-  .modal {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    width: auto;
-    margin: 0;
-  }
-  .modal.fade {
-    top: -100px;
-  }
-  .modal.fade.in {
-    top: 20px;
-  }
-}
-
-@media (max-width: 480px) {
-	.google-maps {
+  .google-maps {
 		position: relative;
 		/*padding-bottom: 75%; 
 		height: 0;
@@ -2793,66 +2856,25 @@
 		position: relative;
 		top: 0;
 		left: 0;
-		width: 60% !important;
+		width: 100% !important;
 		height: 250px !important;
 		
 	}
-
-  .nav-collapse {
-    -webkit-transform: translate3d(0, 0, 0);
-  }
-  .page-header h1 small {
-    display: block;
-    line-height: 20px;
-  }
-  input[type="checkbox"],
-  input[type="radio"] {
-    border: 1px solid #ccc;
-  }
-  .form-horizontal .control-label {
-    float: none;
-    width: auto;
-    padding-top: 0;
-    text-align: left;
-  }
-  .form-horizontal .controls {
-    margin-left: 0;
-  }
-  .form-horizontal .control-list {
-    padding-top: 0;
-  }
-  .form-horizontal .form-actions {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  .media .pull-left,
-  .media .pull-right {
-    display: block;
-    float: none;
-    margin-bottom: 10px;
-  }
-  .media-object {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  .modal {
-    top: 10px;
-    right: 10px;
-    left: 10px;
-  }
-  .modal-header .close {
-    padding: 10px;
-    margin: -10px;
-  }
-  .carousel-caption {
-    position: static;
-  }
-}
-
-@media (max-width: 979px) {
-  body {
-    padding-top: 0;
-  }
+  #temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
@@ -3000,10 +3022,263 @@
     padding-left: 10px;
   }
 }
+@media (max-width: 640px) {
+  body {
+    /*padding-right: 20px;
+    padding-left: 20px;*/
+  }
+  #temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  .dl-horizontal dt {
+    float: none;
+    width: auto;
+    clear: none;
+    text-align: left;
+  }
+  .dl-horizontal dd {
+    margin-left: 0;
+  }
+  .container {
+    width: auto;
+  }
+  .row-fluid {
+    width: 75%;
+	margin: 0px auto;
+  }
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .span12,
+  .row-fluid .span12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 0;
+  }
+  .modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+  }
+  .modal.fade {
+    top: -100px;
+  }
+  .modal.fade.in {
+    top: 20px;
+  }
+}
 
+@media (max-width: 600px) {
+	.google-maps {
+		position: relative;
+		/*padding-bottom: 75%; 
+		height: 0;
+		overflow: hidden;*/
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 250px !important;
+		
+	}
+	#temporada
+	{
+		float: left;
+		/*margin: 0 auto;*/
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		/*margin: 0 40px 0 40px;*/
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
+
+  .nav-collapse {
+    -webkit-transform: translate3d(0, 0, 0);
+  }
+  .page-header h1 small {
+    display: block;
+    line-height: 20px;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    border: 1px solid #ccc;
+  }
+  .form-horizontal .control-label {
+    float: none;
+    width: auto;
+    padding-top: 0;
+    text-align: left;
+  }
+  .form-horizontal .controls {
+    margin-left: 0;
+  }
+  .form-horizontal .control-list {
+    padding-top: 0;
+  }
+  .form-horizontal .form-actions {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .media .pull-left,
+  .media .pull-right {
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .media-object {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .modal {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+  }
+  .modal-header .close {
+    padding: 10px;
+    margin: -10px;
+  }
+  .carousel-caption {
+    position: static;
+  }
+}
+
+/* Smartphones (Vertical y Horizontal) ----------- */
+/*@media all 
+and (min-width : 320px) 
+and (max-width : 480px) {
+ 
+}*/
+ 
+/* Smartphones (Vertical) ----------- */
+/*@media all and (max-width : 480px) {
+ 
+}*/
+ 
+/* Pequeños Smartphones (Apaisado o Horizontal) ----------- */
+/*@media all and (max-width : 430px) {
+ 
+}*/
+ 
+/* Smartphones (Vertical) ----------- */
+/*@media all and (max-width : 375px) {
+ 
+}*/
+ 
+/* Pequeños Smartphones (Vertical) ----------- */
+/*@media all and (max-width : 320px) {
+ 
+}*/
+
+/*
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
+  .google-maps {
+		position: relative;
+		
+		
+	}
+	.google-maps iframe {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 250px !important;
+		
+	}
+ #temporada
+	{
+		float: left;
+		
+	}
+	#temporada li{
+		list-style: none;
+		text-align: left;
+		
+		line-height:1.5em;
+  		
+  		
+  		float:left;
+  		display:inline;
+	}
 }
+*/

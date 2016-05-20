@@ -18,6 +18,9 @@
 .icon-binocular:before {
     content: "\e90a";
 }
+.icon-matafuego2:before {
+    content: "\e90d";
+}
 .icon-mapa:before {
     content: "\e90b";
 }
@@ -78,9 +81,6 @@
 .icon-botiquin:before {
     content: "\e602";
 }
-.icon-matafuego:before {
-    content: "\e606";
-}
 .icon-youtube:before {
     content: "\f167";
 }
@@ -90,7 +90,7 @@
 .icon-ok:before {
     content: "\f164";
 }
-.icon-uniF134:before {
+.icon-matafuego:before {
     content: "\f134";
 }
 .icon-calendario:before {
@@ -165,3 +165,6 @@
 .icon-naturaleza:before {
     content: "\e9a4";
 }
+
+
+
