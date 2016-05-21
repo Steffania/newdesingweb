@@ -13,6 +13,8 @@
 	header.special {
 		margin-bottom: 4em;
 		padding-top: 0.1em;
+
+		
 	}
 
 		header.special:before, header.special:after {
