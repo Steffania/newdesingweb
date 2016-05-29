@@ -28,9 +28,31 @@
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+
+		<script>
+	        $(document).ready(function(){
+	 
+	            // cada vez que se mueva el scroll del navegador se ejecutara
+	            // este evento
+	            $(document).scroll(function(){
+	 
+	                // si la posicion del scroll es superior a 55 pixels...
+	                if($(window).scrollTop()>700 && $(window).scrollTop()< ($(document).outerHeight() - $(window).outerHeight()) -600)
+	                {
+	                    // indicamos que el header tiene una posicion fija a -47 pixels
+	                    $("div.social").css({"top":200});
+	                    // definimos el margen superior al contenido cuando queda fijado
+	                    /*$("content").css({"margin-top":80});*/
+	                }else{
+	                    $("div.social").css({"top":-300});
+	                 
+	                }
+	            });
+	        });
+    	</script>
 	</head>
 	<body class="index">
-	
+		
 		<!-- Header -->
 			<header id="header" class="alt">
 				<h1 i><a href="index.html">CABAÑAS <span>MBURUCUYÁ POTY</span></a></h1>
@@ -74,7 +96,15 @@
 					</ul>
 				</nav>
 			</header>
-
+			<div id="social" class="social">
+				<ul>
+					<li><a href="http://www.facebook.com/falconmasters" target="_blank" class="icon icon-facebook"></a></li>
+					<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon icon-twitter"></a></li>
+					<li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon icon-google-plus"></a></li>
+					<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon icon-instagram"></a></li>
+					<li><a href="mailto:contacto@falconmasters.com" class="icon icon-youtube"></a></li>
+				</ul>
+			</div>
 		<!-- Banner -->		
 			<section id="banner">
 				
