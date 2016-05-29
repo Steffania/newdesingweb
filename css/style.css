@@ -1313,7 +1313,7 @@
 	    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
 		border:1px solid #14937a;
 		border-bottom:10px solid #14937a;
-	    
+	   
 	}
 
 	.small {
@@ -1324,10 +1324,15 @@
 	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
 	    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
 	    box-shadow: 0 2px 5px 0 rgba(0,0,0,.2);
-		border:1px solid #cd8109;
-		border-bottom:10px solid #cd8109;
+		border:1px solid #149068;
+		border-bottom:10px solid #149068;
+
 	    
 	}
+	.small:hover{
+		color: white;
+	}
+
 
 	.medium {
 	    float: left;
