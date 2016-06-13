@@ -12,50 +12,13 @@
     font-weight: normal;
     font-style: normal;
 }
-.icon-matafuego:before {
-    content: "\e90d";
+
+
+.icon-mail:before {
+    content: "\e90f";
 }
-.icon-botiquin_auxilio:before {
-    content: "\e90e";
-}
-.icon-youtube2:before {
-    content: "\e90c";
-}
-.icon-binocular:before {
-    content: "\e90a";
-}
-.icon-mapa:before {
-    content: "\e90b";
-}
-.icon-reloj:before {
-    content: "\f017";
-}
-.icon-ruta:before {
-    content: "\f019";
-}
-.icon-tarifa:before {
-    content: "\f02d";
-}
-.icon-fechas:before {
-    content: "\f074";
-}
-.icon-google-plus:before {
-    content: "\f0d5";
-}
-.icon-instagram:before {
-    content: "\f16d";
-}
-.icon-uniF180:before {
-    content: "\f180";
-}
-.icon-pino:before {
-    content: "\f1bb";
-}
-.icon-desayuno2:before {
-    content: "\e908";
-}
-.icon-ropablanca:before {
-    content: "\e909";
+.icon-botiquin:before {
+    content: "\e602";
 }
 .icon-aire:before {
     content: "\e900";
@@ -81,88 +44,130 @@
 .icon-wifi:before {
     content: "\e907";
 }
-.icon-botiquin:before {
-    content: "\e602";
+.icon-desayuno2:before {
+    content: "\e908";
 }
-.icon-youtube:before {
-    content: "\f167";
+.icon-ropablanca:before {
+    content: "\e909";
 }
-.icon-bad:before {
-    content: "\f165";
+.icon-binocular:before {
+    content: "\e90a";
 }
-.icon-ok:before {
-    content: "\f164";
+.icon-mapa:before {
+    content: "\e90b";
 }
-.icon-calendario:before {
-    content: "\f133";
+.icon-youtube2:before {
+    content: "\e90c";
 }
-.icon-comentar:before {
-    content: "\f10e";
+.icon-matafuego:before {
+    content: "\e90d";
 }
-.icon-lunch:before {
-    content: "\f0f5";
+.icon-botiquin_auxilio:before {
+    content: "\e90e";
 }
-.icon-desayuno:before {
-    content: "\f0f4";
-}
-.icon-facebook:before {
-    content: "\f09a";
-}
-.icon-twitter:before {
-    content: "\f099";
-}
-.icon-telefono:before {
-    content: "\f098";
-}
-.icon-camara:before {
-    content: "\f083";
-}
-.icon-agenda:before {
-    content: "\f073";
-}
-.icon-right:before {
-    content: "\f054";
-}
-.icon-left:before {
-    content: "\f053";
-}
-.icon-reservar:before {
-    content: "\f044";
-}
-.icon-ubicacion:before {
-    content: "\f041";
-}
-.icon-galeria:before {
-    content: "\f03e";
-}
-.icon-video:before {
-    content: "\f03d";
-}
-.icon-photo:before {
-    content: "\f030";
-}
-.icon-reserva:before {
-    content: "\f02c";
-}
-.icon-rutas:before {
-    content: "\f018";
-}
-.icon-casa:before {
-    content: "\f015";
-}
-.icon-tilde:before {
-    content: "\f00c";
-}
-.icon-usuario:before {
-    content: "\f007";
-}
-.icon-corazon:before {
-    content: "\f004";
+.icon-naturaleza:before {
+    content: "\e9a4";
 }
 .icon-carta:before {
     content: "\f003";
 }
-.icon-naturaleza:before {
-    content: "\e9a4";
+.icon-corazon:before {
+    content: "\f004";
+}
+.icon-usuario:before {
+    content: "\f007";
+}
+.icon-tilde:before {
+    content: "\f00c";
+}
+.icon-casa:before {
+    content: "\f015";
+}
+.icon-reloj:before {
+    content: "\f017";
+}
+.icon-rutas:before {
+    content: "\f018";
+}
+.icon-ruta:before {
+    content: "\f019";
+}
+.icon-reserva:before {
+    content: "\f02c";
+}
+.icon-tarifa:before {
+    content: "\f02d";
+}
+.icon-photo:before {
+    content: "\f030";
+}
+.icon-video:before {
+    content: "\f03d";
+}
+.icon-galeria:before {
+    content: "\f03e";
+}
+.icon-ubicacion:before {
+    content: "\f041";
+}
+.icon-reservar:before {
+    content: "\f044";
+}
+.icon-left:before {
+    content: "\f053";
+}
+.icon-right:before {
+    content: "\f054";
+}
+.icon-agenda:before {
+    content: "\f073";
+}
+.icon-camara:before {
+    content: "\f083";
+}
+.icon-telefono:before {
+    content: "\f098";
+}
+.icon-twitter:before {
+    content: "\f099";
+}
+.icon-facebook:before {
+    content: "\f09a";
+}
+.icon-google-plus:before {
+    content: "\f0d5";
+}
+.icon-desayuno:before {
+    content: "\f0f4";
+}
+.icon-lunch:before {
+    content: "\f0f5";
+}
+.icon-comentar:before {
+    content: "\f10e";
+}
+.icon-calendario:before {
+    content: "\f133";
+}
+.icon-ok:before {
+    content: "\f164";
+}
+.icon-bad:before {
+    content: "\f165";
+}
+.icon-youtube:before {
+    content: "\f167";
+}
+.icon-instagram:before {
+    content: "\f16d";
+}
+.icon-uniF180:before {
+    content: "\f180";
+}
+.icon-pino:before {
+    content: "\f1bb";
+}
+.icon-telefono2:before {
+    content: "\e942";
 }
 
