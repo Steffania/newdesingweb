@@ -4,6 +4,7 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 <html>
 	<head>
 		<title>Contacto - Cabañas Mburucuyá Poty</title>
@@ -73,7 +74,55 @@
 						<div class="row oneandhalf">
 							<div class="6u">
 								<div class="content">
-									<form  action="procesaform.php" method="post" name="contacto" accept-charset="utf-8">
+								<form id="contact" action="contacto.php" method="post" name="contacto" accept-charset="utf-8">
+						           <div class="row half collapse-at-2">
+											<div class="6u">
+												<fieldset>
+							              			<input type="text" name="nombre" placeholder="Nombre completo" tabindex="1" required autofocus >
+							            		</fieldset>
+											
+											</div>
+											<div class="6u">
+											 	<input name="celular" placeholder="Celular" type="text" tabindex="2" required>
+											</div>
+									</div>
+									<div class="row half">										
+										<div class="12u">
+											<fieldset>
+							            		<input name="email" placeholder="Email" type="email" tabindex="2" required>
+								            </fieldset>
+										</div>
+									</div>
+						            <div class="row half">
+											<div class="12u">
+												<fieldset>
+							              			<textarea name="mensaje" placeholder="Escribe tu mensaje...." rows="4" cols="45" required></textarea>
+							            		</fieldset>												
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<ul class="buttons">
+													<li><input type="submit" class="special" value="Enviar" id="contact-submit" data-submit="...Enviar"/></li>
+												</ul>
+											</div>
+										</div>
+										<!-- <div class="row">
+											<div class="12u">
+												<ul class="buttons">
+													<li>
+ 														<fieldset>
+						              						<button name="submit" type="submit" id="contact-submit" data-submit="...Enviar">Enviar</button>
+						            					</fieldset> 
+													</li>
+												</ul>
+											</div>
+										</div> -->
+						          </form>
+						          </div>
+						    </div>
+
+									<!-- <form  action="contacto.php" method="post" name="contacto" accept-charset="utf-8">
 										<div class="row half collapse-at-2">
 											<div class="6u">
 													<input type="text" name="nombre" required placeholder="Nombre Completo" />
@@ -101,7 +150,7 @@
 										</div>
 									</form>
 								</div>
-							</div>
+							</div> -->
 							<div class="6u skel-cell-important">
 								
 									<div class="contact_info">										

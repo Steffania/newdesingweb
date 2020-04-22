@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="es" lang="es">
+    <head>        
+        <title>Formulario de contacto</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+    </head>        
+    
+    <body>
+        <div class="container">  
+          <form id="contact" action="contacto.php" method="post">
+            <h3>Comunícate con nosotros</h3>
+            <h4>Formulario de ejemplo!</h4>
+            <fieldset>
+              <input  name="nombre" placeholder="Tu nombre" type="text" tabindex="1" required autofocus >
+            </fieldset>
+            <fieldset>
+              <input name="email" placeholder="Tu email" type="email" tabindex="2" required>
+            </fieldset>
+            <fieldset>
+              <textarea name="mensaje" placeholder="Escribe tu mensaje...." tabindex="5" required></textarea>
+            </fieldset>
+            <fieldset>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Enviar">Enviar</button>
+            </fieldset> 
+          </form>
+        </div>
+    </body>
+</html>
