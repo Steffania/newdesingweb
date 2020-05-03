@@ -2,7 +2,8 @@
 /**
  * @version 1.0
  */
-
+// grab recaptcha library
+// require_once "recaptchalib.php";
 require("class.phpmailer.php");
 require("class.smtp.php");
 
@@ -85,16 +86,15 @@ $mail->AltBody = "{$mensaje} \n\n Formulario de Sitio Cabañas Mburucuyá Poty";
 
 
 // }
+ 
 
+// // your secret key
+// $secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
  
-// grab recaptcha library
-require_once "recaptchalib.php";
-// your secret key
-$secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
+// // empty response
+// $response = null;
  
-// empty response
-$response = null;
- 
+
 // check secret key
 $reCaptcha = new ReCaptcha($secret);
 // if submitted check response
