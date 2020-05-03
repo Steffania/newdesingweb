@@ -2,7 +2,8 @@
 /**
  * @version 1.0
  */
-
+// grab recaptcha library
+// require_once "recaptchalib.php";
 require("class.phpmailer.php");
 require("class.smtp.php");
 
@@ -95,25 +96,24 @@ $estadoEnvio = $mail->Send();
 
 
 }
-<?php
+
  
-// grab recaptcha library
-require_once "recaptchalib.php";
-// your secret key
-$secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
+
+// // your secret key
+// $secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
  
-// empty response
-$response = null;
+// // empty response
+// $response = null;
  
-// check secret key
-$reCaptcha = new ReCaptcha($secret);
-// if submitted check response
-if ($_POST["g-recaptcha-response"]) {
-    $response = $reCaptcha->verifyResponse(
-        $_SERVER["REMOTE_ADDR"],
-        $_POST["g-recaptcha-response"]
-    );
-}
-<?php } 
+// // check secret key
+// $reCaptcha = new ReCaptcha($secret);
+// // if submitted check response
+// if ($_POST["g-recaptcha-response"]) {
+//     $response = $reCaptcha->verifyResponse(
+//         $_SERVER["REMOTE_ADDR"],
+//         $_POST["g-recaptcha-response"]
+//     );
+// }
+
 ?>
 
