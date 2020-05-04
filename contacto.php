@@ -2,13 +2,12 @@
 /**
  * @version 1.0
  */
-// grab recaptcha library
-// require_once "recaptchalib.php";
+
 require("class.phpmailer.php");
 require("class.smtp.php");
 
 // Valores enviados desde el formulario
-if ( !isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensaje"])|| !isset($_POST["celular"]) ) {
+if ( !isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensaje"])|| !isset($_POST["celular"]) || !isset($_POST["g-recaptcha-response"])) {
     die ("Es necesario completar todos los datos del formulario");
 }
 $nombre = $_POST["nombre"];
@@ -86,15 +85,16 @@ $mail->AltBody = "{$mensaje} \n\n Formulario de Sitio Cabañas Mburucuyá Poty";
 
 
 // }
- 
 
-// // your secret key
-// $secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
  
-// // empty response
-// $response = null;
+// grab recaptcha library
+require_once "recaptchalib.php";
+// your secret key
+$secret = "6LeZOvAUAAAAAPdOQHxrrGFv9YKmLKp9Q9WAamW6";
  
-
+// empty response
+$response = null;
+ 
 // check secret key
 $reCaptcha = new ReCaptcha($secret);
 // if submitted check response
@@ -106,18 +106,28 @@ if ($_POST["g-recaptcha-response"]) {
 
 }
 if ($response != null && $response->success) {
-    $estadoEnvio = $mail->Send(); 
-     if($estadoEnvio){
-      header("location:http://www.mburucuyapoty.com.ar/contacto.html");
-
-      echo '<p class="alert alert-success agileits" role="alert">El correo fue enviado correctamente!p>';
-
+    try {
+      $estadoEnvio = $mail->Send(); 
+      if($estadoEnvio){
+        header("location:http://www.mburucuyapoty.com.ar/contacto.html");
+        echo '<p class="alert alert-success agileits" role="alert">El correo fue enviado correctamente!p>';
       } else {
-
-      echo "Mailer Error: " . $mail->ErrorInfo;
-     
-
+        echo "Mailer Error: " . $mail->ErrorInfo;
+      }
+      $mail->From = "cabanas@mburucuyapoty.com";
+      $estadoEnvio = $mail->Send(); 
+      if($estadoEnvio){
+        header("location:http://www.mburucuyapoty.com.ar/contacto.html");
+        echo '<p class="alert alert-success agileits" role="alert">El correo fue enviado correctamente!p>';
+      } else {
+        echo "Mailer Error: " . $mail->ErrorInfo;
+        header("location:http://www.mburucuyapoty.com.ar/contacto.html");
+      }
+    } catch (Exception $e) {
+      echo "Mail error:" . $e;
     }
+    
+     
   } else {
       echo 'error';
     }
