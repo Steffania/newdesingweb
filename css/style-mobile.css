@@ -41,7 +41,8 @@
 		}
 		header img
 		{
-			width: 70%;
+			width: 40%;
+			padding-top: 2.2em;
 		}
 			header.special:before, header.special:after {
 				width: 35%;
@@ -64,8 +65,6 @@
 		}
 		header.special h2 {
 			font-size: 0.9em;
-			padding-top: 2em;
-
 		}
 
 		#banner .inner footer {
@@ -157,7 +156,7 @@
 
 		#banner .inner {
 			
-			background: rgba(52, 27, 43, 0.8);
+			background: rgba(0, 0, 0, 0.5);
 			color: white;
 			display: block;
 			opacity: 0;
@@ -177,7 +176,7 @@
 			}
 
 			#banner .inner p {
-				font-size: 0.8em;
+				font-size: 1em;
 				text-align: center;
 				padding: 0.1em;
 
@@ -342,3 +341,13 @@
   		float:left;
   		display:inline;
 	}
+	#lista ol {
+		width: 200px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	#main .sidebar h3 {
+		line-height: 1.3em;
+	}
+	

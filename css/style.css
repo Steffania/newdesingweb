@@ -1252,17 +1252,18 @@
  }
  
  #banner .inner {
-     -moz-animation: reveal-banner 1s 0.25s ease-in-out;
-     -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-     -o-animation: reveal-banner 1s 0.25s ease-in-out;
-     -ms-animation: reveal-banner 1s 0.25s ease-in-out;
-     animation: reveal-banner 1s 0.25s ease-in-out;
+     -moz-animation: reveal-banner 1s 1s ease-in-out;
+     -webkit-animation: reveal-banner 1s 1s ease-in-out;
+     -o-animation: reveal-banner 1s 1s ease-in-out;
+     -ms-animation: reveal-banner 1s 1s ease-in-out;
+     animation: reveal-banner 1s 1s ease-in-out;
      -moz-animation-fill-mode: forwards;
      -webkit-animation-fill-mode: forwards;
      -o-animation-fill-mode: forwards;
      -ms-animation-fill-mode: forwards;
      animation-fill-mode: forwards;
-     background: rgba(52, 27, 43, 0.5);
+     background: rgba(0, 0, 0, 0.5);
+     /* background: rgba(52, 27, 43, 0.5); */
      color: white;
      display: inline-block;
      opacity: 0;
@@ -1357,7 +1358,7 @@
  #cta {
      background-attachment: scroll, scroll, scroll, fixed;
      background-color: #645862;
-     background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+     background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner4.jpg");
      background-position: top left, top right, top left, bottom center;
      background-repeat: no-repeat, no-repeat, repeat, no-repeat;
      background-size: 25em, 25em, auto, cover;
@@ -1437,7 +1438,7 @@
  }
  
  .small {
-     float: left;
+     /* float: left; */
      margin: 20px 0;
      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAIfP378zwjjgzj8/PyMYAEYB8RmROaABAAVMg/XkcvroQAAAABJRU5ErkJggg== ) repeat;
      -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .2);
@@ -2438,7 +2439,11 @@
  .dos_columnas li {
      width: 50%;
  }
-}
+ .dos_columnas.prueba
+ {
+     width: 100%;
+ }
+
 #sslider #controls label {
     -moz-transform: scale(0.8);
     -webkit-transform: scale(0.8);
@@ -2532,7 +2537,7 @@
     .row-fluid .span3 {
         width: 100%;
         /*height: 410px;*/
-        position: relative;
+        /* position: relative; */
         left: 10%;
     }
 }
