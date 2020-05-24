@@ -859,24 +859,7 @@
 
 </body>
 <script>
-		(function (i, s, o, g, r, a, m) {
-			i['GoogleAnalyticsObject'] = r; // Acts as a pointer to support renaming.
-			// Creates an initial ga() function.  The queued commands will be executed once analytics.js loads.
-			i[r] = i[r] || function () {
-				(i[r].q = i[r].q || []).push(arguments)
-			},
-				// Sets the time (as an integer) this tag was executed.  Used for timing hits.
-				i[r].l = 1 * new Date();
-			// Insert the script tag asynchronously.  Inserts above current tag to prevent blocking in
-			// addition to using the async attribute.
-			a = s.createElement(o),
-				m = s.getElementsByTagName(o)[0];
-			a.async = 1;
-			a.src = g;
-			m.parentNode.insertBefore(a, m)
-		})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-		ga('create', 'UA-90304187-1', 'auto'); // Creates the tracker with default parameters.
-		ga('send', 'pageview');            // Sends a pageview hit.
+	!function(e,a,t,n,g,c,o){e.GoogleAnalyticsObject=g,e.ga=e.ga||function(){(e.ga.q=e.ga.q||[]).push(arguments)},e.ga.l=1*new Date,c=a.createElement(t),o=a.getElementsByTagName(t)[0],c.async=1,c.src="//www.google-analytics.com/analytics.js",o.parentNode.insertBefore(c,o)}(window,document,"script",0,"ga"),ga("create","UA-90304187-1","auto"),ga("send","pageview");       
 	</script>
 <!--Script-->
 <script src="js/jquery.min.js"></script>
@@ -891,34 +874,7 @@
 
 <!--Scroll redes sociales-->
 <script>
-	$(document).ready(function () {
-		// cada vez que se mueva el scroll del navegador se ejecutara este evento
-		$(document).scroll(function () {
-			// si la posicion del scroll es superior a 55 pixels...
-			if ($(window).scrollTop() > 700 && $(window).scrollTop() < ($(document).outerHeight() - $(window).outerHeight()) - 600) {
-				// indicamos que el header tiene una posicion fija a -47 pixels
-				$("div.social").css({ "top": 200 });
-				// definimos el margen superior al contenido cuando queda fijado
-				/*$("content").css({"margin-top":80});*/
-			} else {
-				$("div.social").css({ "top": -300 });
-			}
-		});
-	});
-	jQuery(document).ready(function ($) {
-		var alterClass = function () {
-			var ww = document.body.clientWidth;
-			if (ww < 640) {
-				$('#lista_servicios').removeClass();
-			} else if (ww >= 641) {
-				$('#lista_servicios').addClass('dos_columnas');
-			};
-		};
-		$(window).resize(function () {
-			alterClass();
-		});
-		alterClass();
-	});
+	$(document).ready(function(){$(document).scroll(function(){$(window).scrollTop()>700&&$(window).scrollTop()<$(document).outerHeight()-$(window).outerHeight()-600?$("div.social").css({top:200}):$("div.social").css({top:-300})})}),jQuery(document).ready(function(o){var i=function(){var i=document.body.clientWidth;i<640?o("#lista_servicios").removeClass():i>=641&&o("#lista_servicios").addClass("dos_columnas")};o(window).resize(function(){i()}),i()});
 </script>
 <!--/scroll-->
 
