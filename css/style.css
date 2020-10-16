@@ -1358,7 +1358,7 @@
  #cta {
      background-attachment: scroll, scroll, scroll, fixed;
      background-color: #645862;
-     background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.webp"), url("../images/banner4_1.webp");
+     background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.webp"), url("../images/banner4_1.jpg");
      background-position: top left, top right, top left, bottom center;
      background-repeat: no-repeat, no-repeat, repeat, no-repeat;
      background-size: 25em, 25em, auto, cover;
