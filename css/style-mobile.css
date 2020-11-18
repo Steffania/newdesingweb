@@ -350,4 +350,7 @@
 	#main .sidebar h3 {
 		line-height: 1.3em;
 	}
-	
+	#nav {
+		display: none;
+
+	}
