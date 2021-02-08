@@ -3,8 +3,13 @@
  * @version 1.0
  */
 
-require("class.phpmailer.php");
-require("class.smtp.php");
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable('./');
+$dotenv->load();
 
 // Valores enviados desde el formulario
 if ( !isset($_POST["nombre"]) || !isset($_POST["email"]) || !isset($_POST["mensaje"])|| !isset($_POST["celular"]) || !isset($_POST["g-recaptcha-response"])) {
@@ -17,9 +22,9 @@ $celular = $_POST["celular"];
 $reCaptcha = $_POST["g-recaptcha-response"];
 
 // Datos de la cuenta de correo utilizada para enviar vía SMTP
-$smtpHost = "xw000498.ferozo.com";  // Dominio alternativo brindado en el email de alta 
-$smtpUsuario = "info@mburucuyapoty.com.ar";  // Mi cuenta de correo
-$smtpClave = "Clavemail651";  // Mi contraseña
+$smtpHost = "smtp.gmail.com";  // Dominio alternativo brindado en el email de alta 
+$smtpUsuario = getenv('MAIL_HOST');  // Mi cuenta de correo
+$smtpClave = getenv('MAIL_PASSWORD');  // Mi contraseña 
 
 // Email donde se enviaran los datos cargados en el formulario de contacto
 $emailDestino = "cabanas@mburucuyapoty.com";
@@ -27,7 +32,7 @@ $emailDestino = "cabanas@mburucuyapoty.com";
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->SMTPAuth = true;
-$mail->Port = 465; 
+$mail->Port = 587; 
 $mail->SMTPSecure = 'ssl';
 $mail->IsHTML(true); 
 $mail->CharSet = "utf-8";

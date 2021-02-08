@@ -1,3 +1,6 @@
 css/style.css
 index.html
 .DS_Store
+.env
+vendor/
+composer*
